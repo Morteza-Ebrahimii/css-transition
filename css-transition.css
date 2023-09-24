@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1:hover {
+    transform: rotate(50deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box2:hover {
+    transform: rotateX(50deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box3:hover {
+    transform: rotatey(50deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box4:hover {
+    transform: scale(2);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box5:hover {
+    transform: scale(2, 1);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box6:hover {
+    transform: scale(1, 2);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box7:hover {
+    transform: skewX(50deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box8:hover {
+    transform: skewY(50deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box9:hover {
+    transform: translate(40px, 20%);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box10:hover {
+    transform: translate(40%);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box11:hover {
+    transform: translateY(40%);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box12:hover {
+    transform: skewY(45deg) scale(3);
+    transform-origin: 5px bottom;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box13:hover {
+    transform: perspective(90px) rotateX(45deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box14:hover {
+    transform: perspective(90px) rotateY(45deg);
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box15:hover {
+    transform: rotate(45deg);
+    transform-origin: 100% 0%;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box16:hover {
+    transform: rotate(45deg);
+    transform-origin: 0% 100%;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box17:hover {
+    transform: perspective(200px) rotateX(45deg);
+    transform-origin: bottom;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box18:hover {
+    transform: perspective(200px) rotateX(45deg);
+    transform-origin: top;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box19:hover {
+    transform: perspective(200px) rotateY(45deg);
+    transform-origin: left;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box20:hover {
+    transform: perspective(200px) rotateY(45deg);
+    transform-origin: right;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box21:hover {
+    transform: scale(1.65);
+    transform-origin: right top;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box22:hover {
+    transform: scale(1.65);
+    transform-origin: left bottom;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+.box23:hover {
+    transform: scale(2, 1);
+    transform-origin: right;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box24:hover {
+    transform: scale(2, 1);
+    transform-origin: left;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box25:hover {
+    transform: scale(1, 2);
+    transform-origin: top;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.box26:hover {
+    transform: scale(1, 2);
+    transform-origin: bottom;
+    background-color: rgba(153, 153, 153, 0.7);
+}
+
+
+.secondcontiner {
+    position: relative;
+    width: 12rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(81, 81, 81);
+}
+
+
+.secondbox {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(255, 230, 0);
+}
+
+.next {
+    position: absolute;
+    transition-property: all;
+    transition-duration: .5s;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(144, 153, 153);
+}
